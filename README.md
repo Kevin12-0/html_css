@@ -2,4 +2,5 @@
 
 html y css curso Alura y Oracle
 
-<a href="https://readme.com/" target="_blank">ReadMe</a>
+<!-- insertar una liga en Readme.md -->
+<a href="https://www.w3schools.com/" target="_blank">Ejemplos de HTML</a>
