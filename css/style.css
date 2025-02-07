@@ -1,5 +1,12 @@
 /* cambiar fondo del html */
+/* por etiqueta */
 body {
+  /* por nombre */
   background-color: black;
-  color: white;
+  /* por hexadecimal */
+  color: #f6f6f6;
+}
+/* por etiqueta */
+strong {
+  color: rgba(0, 255, 255, 0.842);
 }
