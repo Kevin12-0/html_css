@@ -31,4 +31,8 @@ strong {
   display: flex;
   /* alinear al centro */
   align-items: center;
+  /* margen */
+  margin: 5%;
+  /* justificar y dar espacio entre las cosas */
+  justify-content: space-between;
 }
