@@ -32,7 +32,22 @@ strong {
   /* alinear al centro */
   align-items: center;
   /* margen */
-  margin: 5%;
+  margin: 10%;
   /* justificar y dar espacio entre las cosas */
   justify-content: space-between;
+}
+
+.presentacion_contenido {
+  width: 615px;
+}
+
+/* modificacion del h1 */
+.presentacion_titulo {
+  font-size: 36px;
+}
+
+/* modificacion del p */
+
+.presentacion_parrafo {
+  font-size: 30px;
 }
