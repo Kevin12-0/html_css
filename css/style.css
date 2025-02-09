@@ -1,9 +1,8 @@
 /* cambio universal */
-*{
+* {
   padding: 0;
   margin: 0;
 }
-
 
 /* cambiar fondo del html */
 /* por etiqueta */
@@ -12,6 +11,10 @@ body {
   background-color: black;
   /* por hexadecimal */
   color: #f6f6f6;
+  /* viewport y altura de la pagina */
+  height: 100vh;
+  /* box size, para patrones de diseños con css */
+  box-sizing: border-box;
 }
 /* por etiqueta */
 strong {
