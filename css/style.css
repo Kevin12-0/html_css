@@ -57,3 +57,13 @@ strong {
   font-size: 30px;
   font-family: "Montserrat", serif;
 }
+
+.prensentacion_enlaces {
+  /* alineacion de los elementos de enlace */
+  display: flex;
+  justify-content: space-between;
+}
+
+.presentacion_enlace_link{
+
+}
