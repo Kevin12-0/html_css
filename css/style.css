@@ -25,3 +25,10 @@ strong {
   /* por color rgba */
   color: rgba(0, 255, 255, 0.842);
 }
+
+.presentacion {
+  /* flex box */
+  display: flex;
+  /* alinear al centro */
+  align-items: center;
+}
