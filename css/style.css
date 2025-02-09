@@ -1,3 +1,6 @@
+/* importar un tipo de letra en css */
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* cambio universal */
 * {
   padding: 0;
@@ -44,10 +47,13 @@ strong {
 /* modificacion del h1 */
 .presentacion_titulo {
   font-size: 36px;
+  /* usar la fuente usada */
+  font-family: "Krona One", serif;
 }
 
 /* modificacion del p */
 
 .presentacion_parrafo {
   font-size: 30px;
+  font-family: "Montserrat", serif;
 }
