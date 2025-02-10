@@ -19,3 +19,7 @@ html y css curso Alura y Oracle
 ## tutorial para los colores
 
 <a href="https://www.w3schools.com/cssref/css_colors.php" target="_blanck">Tutorial de color en css</a>
+
+## configuracion de bordes en css
+
+<a href="https://www.w3schools.com/css/css_border.asp" target="_blanck">Css border</a>
