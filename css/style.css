@@ -35,13 +35,16 @@ strong {
   /* alinear al centro */
   align-items: center;
   /* margen */
-  margin: 10%;
+  margin: 10% 15% 10%;
   /* justificar y dar espacio entre las cosas */
   justify-content: space-between;
 }
 
 .presentacion_contenido {
   width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 /* modificacion del h1 */
@@ -64,6 +67,18 @@ strong {
   justify-content: space-between;
 }
 
-.presentacion_enlace_link{
-
+.presentacion_enlace_link {
+  /* alineacion de los elementos de enlaces estilos */
+  width: 200px;
+  background-color: aqua;
+  /* alineacion del boton al centro */
+  text-align: center;
+  padding: 21.5px 0;
+  border-radius: 16px;
+  font-family: "Krona One", serif;
+  font-size: 24px;
+  font-weight: 100px;
+  /* eliminar la linea del boton */
+  text-decoration: none;
+  color: black;
 }
