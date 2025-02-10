@@ -65,6 +65,11 @@ strong {
   /* alineacion de los elementos de enlace */
   display: flex;
   justify-content: space-between;
+  /* en forma de columna */
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  
 }
 
 .presentacion_enlace_link {
