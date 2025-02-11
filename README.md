@@ -23,3 +23,8 @@ html y css curso Alura y Oracle
 ## configuracion de bordes en css
 
 <a href="https://www.w3schools.com/css/css_border.asp" target="_blanck">Css border</a>
+
+## CSS hovered styles
+
+<a href="https://www.w3schools.com/CSSref/sel_hover.php" target="_blanck">CSS hovered styles</a>
+
