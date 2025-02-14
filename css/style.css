@@ -108,7 +108,7 @@ strong {
   padding: 2% 0% 0% 15%;
 }
 
-.header_menu{
+.header_menu {
   display: flex;
   gap: 80px;
 }
@@ -119,4 +119,5 @@ strong {
   font-weight: 600;
   color: aqua;
   justify-content: space-between;
+  text-decoration: none;
 }
