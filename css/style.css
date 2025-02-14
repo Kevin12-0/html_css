@@ -60,7 +60,10 @@ strong {
   font-size: 30px;
   font-family: "Montserrat", serif;
 }
-
+.presentacion_parrafo_about {
+  font-size: 15px;
+  font-family: "Montserrat", serif;
+}
 .prensentacion_enlaces {
   /* alineacion de los elementos de enlace */
   display: flex;
@@ -111,6 +114,7 @@ strong {
 .header_menu {
   display: flex;
   gap: 80px;
+  flex-direction: column;
 }
 
 .menu_link {
