@@ -28,3 +28,8 @@ html y css curso Alura y Oracle
 
 <a href="https://www.w3schools.com/CSSref/sel_hover.php" target="_blanck">CSS hovered styles</a>
 
+## Medidas absolutas y relativas
+
+<a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">CSS Units</a>
+
+
