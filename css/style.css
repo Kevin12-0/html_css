@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* variables en css */
-::root {
+:root {
   --color-primario: black;
   --color-secundario: white;
   --color-terceario: rgb(92, 179, 236);
@@ -21,9 +21,10 @@
 /* por etiqueta */
 body {
   /* por nombre */
-  background-color: black;
+  /* usar bariable */
+  background-color: var(--color-primario);
   /* por hexadecimal */
-  color: #f6f6f6;
+  color: var(--color-secundario);
   /* viewport y altura de la pagina */
   height: 100vh;
   /* box size, para patrones de diseños con css */
@@ -31,12 +32,12 @@ body {
 }
 /* por etiqueta */
 strong {
-  color: rgba(0, 255, 255, 0.842);
+  color: var(--color-terceario);
 }
 
 .titulo-destaque {
   /* por color rgba */
-  color: rgba(0, 255, 255, 0.842);
+  color: var(--color-terceario);
 }
 
 .presentacion {
@@ -61,18 +62,19 @@ strong {
 .presentacion_titulo {
   font-size: 36px;
   /* usar la fuente usada */
-  font-family: "Krona One", serif;
+  /* usar una variable */
+  font-family: var(--fuente-krola);
 }
 
 /* modificacion del p */
 
 .presentacion_parrafo {
   font-size: 30px;
-  font-family: "Montserrat", serif;
+  font-family: var(--fuente-montserrat);
 }
 .presentacion_parrafo_about {
   font-size: 15px;
-  font-family: "Montserrat", serif;
+  font-family: var(--fuente-montserrat);
 }
 .prensentacion_enlaces {
   /* alineacion de los elementos de enlace */
@@ -92,7 +94,7 @@ strong {
   text-align: center;
   padding: 21.5px 0;
   border-radius: 8px;
-  font-family: "Krona One", serif;
+  font-family: var(--fuente-krola);
   font-size: 24px;
   font-weight: 600;
   /* eliminar la linea del boton */
@@ -108,13 +110,13 @@ strong {
 }
 
 .presentacion_enlaces_subtitulo {
-  font-family: "Krona One", serif;
+  font-family: var(--fuente-montserrat);
   font-size: 24px;
   font-weight: 400;
 }
 
 .presentacion_enlace_link:hover {
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
 }
 
 .header {
@@ -131,7 +133,7 @@ strong {
   font-family: "Montserrat", "Helvetica Neue";
   font-size: 24px;
   font-weight: 600;
-  color: aqua;
+  color: var(--color-terceario);
   justify-content: space-between;
   text-decoration: none;
 }
