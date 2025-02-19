@@ -44,15 +44,17 @@ strong {
   /* flex box */
   display: flex;
   /* alinear al centro */
+
   align-items: center;
   /* margen */
   margin: 6% 15%;
   /* justificar y dar espacio entre las cosas */
   justify-content: space-between;
+  gap: 82px;
 }
 
 .presentacion_contenido {
-  width: 615px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -88,7 +90,7 @@ strong {
 
 .presentacion_enlace_link {
   /* alineacion de los elementos de enlaces estilos */
-  width: 378px;
+  width: 50%;
 
   /* alineacion del boton al centro */
   text-align: center;
@@ -130,10 +132,21 @@ strong {
 }
 
 .menu_link {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
   font-family: "Montserrat", "Helvetica Neue";
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--color-terceario);
   justify-content: space-between;
   text-decoration: none;
+  padding: 21.5px 0;
+  width: 378px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.presentacion_imagen {
+  width: 50%;
 }
