@@ -60,7 +60,7 @@ strong {
 
 /* modificacion del h1 */
 .presentacion_titulo {
-  font-size: 36px;
+  font-size: 2.2rem;
   /* usar la fuente usada */
   /* usar una variable */
   font-family: var(--fuente-krola);
@@ -95,7 +95,7 @@ strong {
   padding: 21.5px 0;
   border-radius: 8px;
   font-family: var(--fuente-krola);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   /* eliminar la linea del boton */
   text-decoration: none;
@@ -111,7 +111,7 @@ strong {
 
 .presentacion_enlaces_subtitulo {
   font-family: var(--fuente-montserrat);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -131,7 +131,7 @@ strong {
 
 .menu_link {
   font-family: "Montserrat", "Helvetica Neue";
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--color-terceario);
   justify-content: space-between;
