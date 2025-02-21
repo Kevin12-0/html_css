@@ -32,4 +32,6 @@ html y css curso Alura y Oracle
 
 <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">CSS Units</a>
 
+## media queries
 
+<a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_media_queries/Using_media_queries" target="_blanck">css media queries (adaptacion de pantalla)</a>
